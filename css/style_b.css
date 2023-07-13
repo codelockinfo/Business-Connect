@@ -110,8 +110,11 @@
 }
 .mar_top_60{
     margin-top: 60px;
+    margin-bottom: 6%;
 }
-
+section.bac_color_.mar_top_60 {
+    margin-bottom: 0;
+}
 
 
 
