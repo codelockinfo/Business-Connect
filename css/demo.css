@@ -14,7 +14,6 @@
     align-items: center;
     width: 100%;
     text-align: center;
-    margin-bottom: 13px;
 }
 .topbar p{
     margin-bottom: 0px;
@@ -78,6 +77,12 @@ a.nav-link {
     display: flex;
     justify-content: end;
     align-items: center;
+    font-size: 14px;
+    padding-top: 5px;
+}
+nav.navbar.navbar-expand-md.navbar-dark {
+    padding: 0px;
+    margin-bottom: 20px;
 }
 
 .contect-icon {
