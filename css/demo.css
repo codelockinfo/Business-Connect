@@ -165,8 +165,10 @@ button.slick-next.slick-arrow{
 }
 .custom-dot ul.slick-dots{
     position: absolute;
-    bottom: 110%;
-    right: 2%;
+    /* bottom: 110%; */
+    bottom: 120%;
+    /* right: 2%; */
+    right: 0;
 }
 .insta svg{
     margin-left: 15px;

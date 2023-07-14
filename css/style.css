@@ -92,7 +92,7 @@ body{
 .main-container{
     max-width: 1140px;
 margin: 0 auto;
-padding: 0 15px;
+/* padding: 0 15px; */
 }
 .laconnect{
 background-color: rgba(7, 62, 81, 1);
@@ -147,7 +147,7 @@ align-items: center;
 padding-bottom: 4%;
 }
 .bgconnect{
-background-image: url(../Business-Connect/img/home-our-service-outline.png);
+background-image: url(img/home-our-service-outline.png);
 background-repeat: no-repeat;
 position: relative;
 padding-top: 5%;
@@ -274,7 +274,7 @@ font-weight: 500;
 line-height: 38px;
 letter-spacing: 0em;
 text-align: center;
-
+margin-left: 15px;
 }
 .newsimg img{
 
@@ -332,6 +332,10 @@ letter-spacing: 0em;
 text-align: center;
 color: rgba(7, 62, 81, 1);
 }
+.news_title{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
 .news_des{
 font-size: 15px;
 font-weight: 400;
@@ -342,9 +346,10 @@ a.newsmore {
 font-size: 15px;
 font-weight: 700;
 line-height: 24px;
-border-bottom: 1px solid rgba(7, 62, 81, 1);
+border-bottom: 1px solid #00914D;
 text-decoration: none;
 margin-bottom: 10%;
+color: #00914D;
 }
 .newscontent {
 display: flex;
