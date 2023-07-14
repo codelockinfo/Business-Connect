@@ -42,7 +42,7 @@
     align-items: center;
 }
 .phone{
-    padding: 0px 25px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 .main-toggle{
     display: none;
@@ -63,12 +63,22 @@
     margin: 0px 10px 0px 0px;
 }
 a.nav-link {
-    color: #000 !important; 
+    color: #000 !important;
+    font-family: Work sans;
+    font-weight: 500;
+    font-size: 16px;
 }
 .navbar-nav li {
     margin: 0px 0px 0px 30px;
 }
-
+li.nav-item:nth-last-child(6){
+    background: #00914D;
+    padding: 0px 5px;
+    border-radius: 5px;
+}
+a.nav-link.active {
+    color: white !important;
+}
 .collapse.navbar-collapse{
     display: flex;
     justify-content: end;
@@ -86,13 +96,16 @@ nav.navbar.navbar-expand-md.navbar-dark {
 }
 
 .contect-icon {
-    margin-right: 10px;
+    margin-right: 4px;
+    
 }
+
 .logo img{
     width: 100%;
 }
 .tel{
     color:#00914D;
+    font-weight: 500;
 }
 .phone p{
     margin-bottom: 0px;
@@ -101,8 +114,13 @@ nav.navbar.navbar-expand-md.navbar-dark {
 }
 .phone {
     display: flex;
+    
 }
-
+.contect-info{
+    font-family:Work Sans;  
+    font-Weight:500;
+    Size:14px;
+}
 .contect-icon svg{
     width:20px;
     height:25px;
@@ -110,7 +128,7 @@ nav.navbar.navbar-expand-md.navbar-dark {
 .btn-login{
     background-color: #fff;
     border: 1px solid  #00914D;
-    padding: 0px 10px;
+    padding: 3px 10px;
     border-radius: 4px;
     margin:5px 12px 0px 20px ;
 }
@@ -126,6 +144,7 @@ nav.navbar.navbar-expand-md.navbar-dark {
 }
 .slider-img img {
     width: 90%;
+    margin: 0 auto;
 }
 button.slick-prev.slick-arrow {
     display: none  !important;
@@ -139,6 +158,8 @@ button.slick-next.slick-arrow{
     font-weight: 600;
     margin-bottom: 0px;
     padding: 0px 15px;
+    font-family: Work Sans;
+    
 }
 .custom-dot ul.slick-dots{
     position: absolute;
@@ -149,7 +170,9 @@ button.slick-next.slick-arrow{
     margin-left: 15px;
 }
 .insta a{
-    color:#00914D
+    color:#00914D;
+    font-family: Work Sans;
+    font-weight: 400;
 }
 .slick-slider {
     position: relative;
@@ -216,7 +239,7 @@ button.slick-next.slick-arrow{
             font-family: "slick-icons, sans-serif";
             line-height: 15px;
             text-align: center;
-            color: rgba(0, 145, 76, 1);
+            /* color: rgba(0, 145, 76, 1); */
             border: 1px solid rgba(7, 62, 81, 1);
             border-radius: 50%;
         }
@@ -237,10 +260,10 @@ button.slick-next.slick-arrow{
 @media screen and (max-width:991px) {
 
     .navbar-nav li {
-        margin: 0px 0px 0px 20px;
+        margin: 0px 0px 0px 9px;
     }
     .logo {
-        width: 190px;
+        width: 26%;
     }
 }
 @media screen and (max-width:768px) {
@@ -250,11 +273,15 @@ button.slick-next.slick-arrow{
     .fas.icon-right-arrow.icon-right-arrow {
         display: inline;
         background-color: #00914D;
-        padding: 5px;
+        padding: 2px;
         border-radius: 50%;
         margin-left: 10px;
         color: #073E51;
         width: 5%;
+        
+    }
+    .slider-img {
+        margin-bottom: 20px;
     }
     .main-nav-menu {
         display: flex;
@@ -272,6 +299,8 @@ button.slick-next.slick-arrow{
 }
 .phone {
     display: block;
+    line-height: 15px;
+    margin-right: 15px;
 }
 
 .contect-icon{
@@ -293,18 +322,19 @@ button.slick-next.slick-arrow{
     display: block;
 }
 .logo{
-    width: 160px;
+    width:25%;
 }
-/* .slider-img img {
-    width: 325px;
-} */
+button.navbar-toggler.toggle-bg {
+    background: #073E51;
+    border-radius: 0px;
+}
 .insta {
     display: block;
     text-align: center;
-    margin-bottom: 31px;
+    margin-bottom: 60px;
 }
 .custom-dot ul.slick-dots {
-    bottom: 101%;
+    bottom: 103%;
     right: 0%;
     width: 100%;
 }
@@ -314,11 +344,39 @@ button.slick-next.slick-arrow{
 .cls-mobile{
     display: block;
 }
+.main-nav {
+    margin-top: 15px;
 }
+button.navbar-toggler.bg-dark {
+    border-radius: 0px;
+}
+.phone p {
+    font-weight: 500;
+}
+a.nav-link {
+    font-size: 13px;
+}
+ul.navbar-nav {
+    margin-top: 15px;
+}
+.insta a {
+    background: #F6F7F7;
+    padding: 10px 16px;
+    border-radius: 15px;
+}
+.our-insta{
+    margin-bottom: 10px;
+}
+}
+@media screen and (max-width:740px) {
+    .logo{
+        width: auto;
+    }
 
+}
 @media screen and (max-width:576px) {
     .logo {
-        width: 170px;
+        width: 45%;
     }
 }
 @media screen and (max-width:480px) {
@@ -326,14 +384,11 @@ button.toggler-button {
     font-size: 13px;
 }
 .logo {
-    width: 150px;
+    width: 44%;
 }
 .contect-icon svg {
     width: 16px;
     height: 18px;
-}
-.phone {
-    padding: 0px 8px 0px 0px;
 }
 button.navbar-toggler.bg-dark {
     padding: 3px 0px;
@@ -341,6 +396,12 @@ button.navbar-toggler.bg-dark {
 }
 .phone p{
     font-size: 13px;
+}
+.phone {
+    display: block;
+    padding: 0px 8px 0px 0px;
+    line-height: 15px;
+    margin-right: 0px;
 }
 }
 @media screen and (max-width:375px) {
@@ -350,5 +411,7 @@ button.navbar-toggler.bg-dark {
     .phone{
         display: none;
     }
-    
+    .logo {
+        width: 64%;
+    }
 }
