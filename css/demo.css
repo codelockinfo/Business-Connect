@@ -34,9 +34,11 @@
 .main-nav{
     max-width: 1140px;
     margin: 0 auto;
-    padding: 0px 15px 0px ;
+    padding: 0px;
 }
-
+.main-sec{
+    padding: 0px 20px;
+}
 .main-toggle {
     display: flex;
     align-items: center;
