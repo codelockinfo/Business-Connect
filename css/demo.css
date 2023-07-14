@@ -18,6 +18,8 @@
 .topbar p{
     margin-bottom: 0px;
     font-size: 13px;
+    font-family: Work Sans;
+    font-weight: 500;
 }
 .topbar .get-started{
     padding: 0px 10px !important;
@@ -27,6 +29,8 @@
     margin: 0px 8px;
     border-radius: 4px;
     width: 164px;
+    font-size: 14.3px;
+    font-weight: 600;
 }
 .fas.icon-right-arrow.icon-right-arrow {
     display: none;
@@ -99,7 +103,7 @@ nav.navbar.navbar-expand-md.navbar-dark {
 
 .contect-icon {
     margin-right: 4px;
-    
+    padding-bottom: 3px;   
 }
 
 .logo img{
@@ -108,6 +112,7 @@ nav.navbar.navbar-expand-md.navbar-dark {
 .tel{
     color:#00914D;
     font-weight: 500;
+    padding-left: 5px
 }
 .phone p{
     margin-bottom: 0px;
@@ -123,9 +128,13 @@ nav.navbar.navbar-expand-md.navbar-dark {
     font-Weight:500;
     Size:14px;
 }
-.contect-icon svg{
+/* .contect-icon svg{
     width:20px;
     height:25px;
+} */
+.contect-icon svg {
+    width: 18px;
+    height: 18px;
 }
 .btn-login{
     background-color: #fff;
@@ -304,7 +313,7 @@ button.slick-next.slick-arrow{
 .phone {
     display: block;
     line-height: 15px;
-    margin-right: 15px;
+    margin-right: 8px;
 }
 
 .contect-icon{
@@ -358,7 +367,7 @@ button.navbar-toggler.bg-dark {
     font-weight: 500;
 }
 a.nav-link {
-    font-size: 13px;
+    font-size: 12px;
 }
 ul.navbar-nav {
     margin-top: 15px;
@@ -371,12 +380,18 @@ ul.navbar-nav {
 .our-insta{
     margin-bottom: 10px;
 }
+.contect-icon svg {
+    width: 20px;
+    height: 25px;
+}
 }
 @media screen and (max-width:740px) {
     .logo{
         width: auto;
     }
-
+    .phone {
+        margin-right: 18px;
+    }
 }
 @media screen and (max-width:576px) {
     .logo {
